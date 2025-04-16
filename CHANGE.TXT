@@ -1,0 +1,2 @@
+the rl agent should consider all the possible paths and update them in exploration 
+currently it is not doing that 

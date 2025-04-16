@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": "A", "type": "ACCOUNT", "balance": 5000.00},
+    {"id": "B", "type": "REVENUE", "balance": 6000.00},
+    {"id": "C", "type": "EXPENSE", "balance": 6000.00}
+  ],
+  "transactions": [
+    {"source": "B", "destination": "A", "amount": 2000.00, "cost": 1.00},
+    {"source": "A", "destination": "C", "amount": 2000.00, "cost": 1.00}
+  ],
+  "costHistory": [
+    4000.00
+  ],
+  "totalCost": 4000.00,
+  "rlImproved": true
+}
